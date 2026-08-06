@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #071426;
+    color: white;
+    min-height: 100vh;
+}
+
+
+.app {
+    padding: 15px;
+    padding-bottom: 90px;
+}
+
+
+/* Top */
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #102442;
+    padding: 15px;
+    border-radius: 18px;
+    border: 1px solid #18365e;
+}
+
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.points {
+    background: #182e52;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #ffd43b;
+}
+
+
+/* Profile */
+
+.profile {
+    margin-top: 15px;
+    background: #102442;
+    padding: 15px;
+    border-radius: 18px;
+}
+
+
+.profile h3 {
+    margin: 0;
+}
+
+
+/* Coin */
+
+.coin-box {
+    margin-top: 15px;
+    text-align: center;
+    background: linear-gradient(#12294b,#081629);
+    padding: 25px 15px;
+    border-radius: 25px;
+    border: 1px solid #214578;
+}
+
+
+.coin {
+    width: 180px;
+    height: 180px;
+    margin: 25px auto;
+    border-radius: 50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:80px;
+    font-weight:bold;
+
+    color:#ffd43b;
+
+    background:
+    radial-gradient(circle,#ffe98a,#f5a800,#a86200);
+
+    box-shadow:
+    0 0 35px #f5b000;
+}
+
+
+/* Energy */
+
+.energy {
+    margin-top:20px;
+}
+
+
+.bar {
+    width:100%;
+    height:15px;
+    background:#1b304c;
+    border-radius:20px;
+    overflow:hidden;
+    margin:10px 0;
+}
+
+
+.fill {
+    width:100%;
+    height:100%;
+    background:#00d26a;
+}
+
+
+/* Reward */
+
+.card {
+
+    margin-top:15px;
+    background:#102442;
+    padding:20px;
+    border-radius:18px;
+    text-align:center;
+
+}
+
+
+.reward button {
+
+    margin-top:15px;
+    width:100%;
+    padding:14px;
+
+    border:none;
+    border-radius:15px;
+
+    background:#ffb900;
+    color:#111;
+
+    font-size:17px;
+    font-weight:bold;
+}
+
+
+
+/* Bottom Menu */
+
+.menu {
+
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+
+    display:flex;
+    justify-content:space-around;
+
+    background:#09182d;
+
+    padding:10px 0;
+
+    border-top:1px solid #193457;
+
+}
+
+
+.menu button {
+
+    background:none;
+    border:none;
+    color:white;
+
+    font-size:12px;
+
+}
