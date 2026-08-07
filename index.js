@@ -19,7 +19,7 @@ bot.onText(/\/start/, (msg) => {
                         {
                             text: "🚀 فتح التطبيق",
                             web_app: {
-                                url: "ضع رابط الـ Mini App هنا"
+                                url: "https://saad21938884.github.io/VALUXTAPV0.1/"
                             }
                         }
                     ]
